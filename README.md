@@ -30,14 +30,16 @@ The app provides clear explanations, Python code examples, practice questions, a
 ## 📁 Project Structure
 
 DSA-Whisper/
+
 │
 ├── app.py # Main Streamlit app
+
 ├── topics.json # JSON file containing DSA topics and examples
+
 ├── requirements.txt # Required Python packages
+
 └── README.md
 
-yaml
-Copy code
 
 ---
 
@@ -46,19 +48,19 @@ Copy code
 1. Clone the repo:
 ```bash
 git clone https://github.com/Bano733-code/DSA-Whisper.git
-cd DSA-Whisper
-Install dependencies:
-
-bash
-Copy code
+cd DSA-Whisper ```
+```
+2.Install dependencies:
+```bash
 pip install -r requirements.txt
-Set your Groq API key in secrets.toml or environment variables.
-
-Run the app:
-
-bash
-Copy code
+```
+3.Set your Groq API key in secrets.toml or environment variables.
+```
+```
+4.Run the app:
+```bash
 streamlit run app.py
+```
 🎯 Future Enhancements
 Add more topics and advanced DSA problems
 
