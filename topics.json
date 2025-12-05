@@ -1,0 +1,27 @@
+{
+  "arrays": {
+    "title": "Introduction to Arrays",
+    "explanation": "Arrays store elements in contiguous memory locations. They allow fast access via index.",
+    "example": "Example: arr = [10, 20, 30], arr[1] = 20"
+  },
+  "stack": {
+    "title": "Understanding Stacks",
+    "explanation": "Stacks work on the Last In First Out (LIFO) principle. Common operations are push (append) and pop.",
+    "example": "Example: stack = [], stack.append(5), stack.pop()"
+  },
+  "queue": {
+    "title": "Understanding Queues",
+    "explanation": "Queues follow First In First Out (FIFO) principle. Common operations are enqueue and dequeue.",
+    "example": "Example: queue.append(1), queue.pop(0)"
+  },
+  "linkedlist": {
+    "title": "Linked List Basics",
+    "explanation": "A linked list consists of nodes where each node has data and a pointer to the next node.",
+    "example": "Example: Node(data=10) -> Node(data=20)"
+  },
+  "sorting": {
+    "title": "Sorting Algorithms",
+    "explanation": "Sorting arranges elements in a particular order. Examples include Bubble, Merge, and Quick sort.",
+    "example": "Example: arr.sort() or sorted(arr)"
+  }
+}
